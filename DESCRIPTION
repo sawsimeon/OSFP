@@ -1,10 +1,8 @@
 Package: OSFP
 Title: Fluorescent Protein Oligomerization Predictor
 Version: 0.0.0.9000
-Authors@R: 
-    person("SAW", "SIMEON", , "saw.simeon@inserm.fr", role = c("cre", "aut"))
-Description: An application for predicting oligomerization states of
-    fluorescent protein.
+Authors@R: person('SAW', 'SIMEON', email = 'saw.simeon@inserm.fr', role = c('cre', 'aut'))
+Description: An application for predicting oligomerization states of fluorescent protein.
 License: MIT + file LICENSE
 URL: https://github.com/sawsimeon/OSFP
 BugReports: https://github.com/sawsimeon/OSFP/issues
