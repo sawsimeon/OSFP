@@ -1,0 +1,9 @@
+#### load R library
+library(shiny)
+library(shinythemes)
+library(protr)
+library(markdown)
+library(seqinr)
+library(caret)
+library(randomForest)
+library(shinyjs)
