@@ -20,12 +20,12 @@
 ##
 golem::fill_desc(
   pkg_name = "OSFP", # The Name of the package containing the App
-  pkg_title = "PKG_TITLE", # The Title of the package containing the App
-  pkg_description = "PKG_DESC.", # The Description of the package containing the App
+  pkg_title = "Fluorescent Protein Oligomerization Predictor", # The Title of the package containing the App
+  pkg_description = "An application for predicting oligomerization states of fluorescent protein.", # The Description of the package containing the App
   author_first_name = "SAW", # Your First Name
   author_last_name = "SIMEON", # Your Last Name
   author_email = "saw.simeon@inserm.fr", # Your Email
-  repo_url = NULL # The URL of the GitHub Repo (optional)
+  repo_url = "https://github.com/sawsimeon/OSFP" # The URL of the GitHub Repo (optional)
 )
 
 ## Set {golem} options ----
