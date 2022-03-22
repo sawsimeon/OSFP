@@ -9,9 +9,12 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # Your application UI logic
-    fluidPage(
-      h1("OSFP")
-    )
+    fluidPage(title = "OSFP: a web server for predicting the oligomeric state of fluorescent proteins", 
+              theme = shinytheme("united"),
+              
+              mod_osFP_title_ui("osFP_title_1")
+    
+  )
   )
 }
 
