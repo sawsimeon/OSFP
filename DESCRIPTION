@@ -21,6 +21,9 @@ Imports:
     shinyjs,
     shinythemes
 Suggests: 
+    covr,
+    knitr,
+    rmarkdown,
     spelling,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
@@ -30,3 +33,4 @@ LazyData: true
 RoxygenNote: 7.1.2
 Depends: 
     R (>= 2.10)
+VignetteBuilder: knitr
