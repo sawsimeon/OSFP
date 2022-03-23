@@ -1,3 +1,11 @@
+# Run this app locally
+```
+# install.packages("devtools")
+devtools::install_github("sawsimeon/OSFP")
+OSFP::run_app()
+```
+# Idea behind the app 
+
 <p>According to the <a href="http://en.wikipedia.org/wiki/Bioluminescence">Wikipedia</a>, bioluminescence is the production and emission of light by a living organism. We have taken light for granted. Without light, we will have many problem doing daily jobs. And also, animals generally have a hard time getting around. Besides light from the <em>SUN</em>, we can use electricity to get a light source but for some animals, they can make their own light. That is called bioluminescence. It is a natural  light emission from living organism. Animals use bioluminescence for many reasons. Fireflies use it to attract mates. Cookiecutter shark use it to attract its prey. And Jelly fish bioluminescence to protect itself from predator. From drug discoveries to monitoring of analyses, the light source from animals has become essential tools for biomedical and live cell imaginings. Of all the bioluminescence proteins that are discovered and isolated, which are luciferases, green fluorescent proteins and photoproteins, green fluorescent protein is the fairest of them all. </p>
 
 <h1>
