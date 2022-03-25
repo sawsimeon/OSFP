@@ -9,10 +9,10 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # Your application UI logic
-   # fluidPage(#title="osFP: a web server for predicting the oligomeric state of fluorescent proteins", theme=shinytheme("united"),
-     # navbarPage("",
+    fluidPage(title="osFP: a web server for predicting the oligomeric state of fluorescent proteins", theme=shinytheme("united"),
+  #    navbarPage("",
        navbarPage(strong("osFP"), collapsible = TRUE,
-                         titleContent <- HTML("<b>osFP</b>: a web server for predicting the oligomeric state of fluorescent proteins"),
+    #                     titleContent <- HTML("<b>osFP</b>: a web server for predicting the oligomeric state of fluorescent proteins"),
                       #   tabPanel("Submit Job", titlePanel(titleContent),
                       #            sidebarLayout(
                       #              wellPanel(
@@ -35,8 +35,8 @@ app_ui <- function(request) {
                     #              ) #sidebarLayout
                     #     ), #tabPanel Submit Job
                          
-                         tabPanel("About", titlePanel("About"), div(includeMarkdown("about.md"), align="justify")),
-                         tabPanel("Download", titlePanel("Download"), div(includeMarkdown("download.md"), align="justify")),
+                      #   tabPanel("About", titlePanel("About"), div(includeMarkdown("about.md"), align="justify")),
+                     #    tabPanel("Download", titlePanel("Download"), div(includeMarkdown("download.md"), align="justify")),
                     #    tabPanel("Citing Us", titlePanel("Citing Us"), div(includeMarkdown("cite.md"), align="justify")),
                          tabPanel("Contact", titlePanel("Contact"), div(includeMarkdown("contact.md"), align="justify"))
     
@@ -44,7 +44,7 @@ app_ui <- function(request) {
     
   ) #navbarPage
   ) # fluoid page
-#  )
+  )
   
 }
 
